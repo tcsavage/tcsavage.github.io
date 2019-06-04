@@ -20,7 +20,7 @@ navigation:                  # (optional) site navigation in the header
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   github: "https://github.com/tcsavage"
-  rss: "/contrast/feed.xml"
+  rss: "/feed.xml"
 
 # Pagination
 show_excerpts: false         # preview articles on the home page
