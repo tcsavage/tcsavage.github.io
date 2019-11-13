@@ -1,7 +1,9 @@
 name: Tom Savage
 title: Tom Savage
-github: [metadata]
-remote_theme: niklasbuschmann/contrast
+author: Tom Savage
+description: "My Blog"
+#github: [metadata]
+#remote_theme: niklasbuschmann/contrast
 
 # Page settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
@@ -10,7 +12,8 @@ hide_title: false            # remove site heading in the header
 post_footer: true            # show previous and next links at the end of each post
 
 # Theme settings
-dark_theme: true            # use the dark mode as default
+show_footer: false
+dark_theme: false            # use the dark mode as default
 dark_header: false           # keep the header dark
 # style: minimal             # use a simpler style inspired by the minima theme
 
@@ -28,7 +31,7 @@ paginate: 8                  # number of articles per page
 excerpt_separator: "\n\n\n"  # indicate the end of the excerpt by two blank lines
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-paginate
   - jekyll-default-layout
+#  - jekyll-remote-theme
