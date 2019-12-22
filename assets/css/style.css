@@ -38,11 +38,11 @@ header div.header-logo a {
 header div.header-logo img {
     place-self: center;
     justify-self: left;
-    transition: opacity 2s ease-in-out;
+    transition: padding 0.25s ease;
 }
 
 header div.header-logo img:hover {
-    opacity: 50%;
+    padding-left: 1em;
 }
 
 header nav {
