@@ -123,6 +123,15 @@ article.archive div.meta {
     font-size: 10pt;
 }
 
+.endofproof {
+    font-variant: small-caps;
+    font-variant: common-ligatures small-caps;
+}
+
+div.highlight {
+    padding: 25px;
+}
+
 @media screen and (min-width: 960px) {
     header {
         background-position: unset;
