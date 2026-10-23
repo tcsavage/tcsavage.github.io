@@ -1,7 +1,5 @@
 # tcsavage.github.io
 
-## Run with jekyll directly
+A plain static landing page served by GitHub Pages.
 
-```
-jekyll serve --watch --incremental --drafts
-```
+The previous Jekyll blog is archived at the `archive/jekyll-blog` tag.
